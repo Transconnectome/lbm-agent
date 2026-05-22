@@ -45,7 +45,7 @@
 ---
 
 > 💡 **주목!** 
-> 랩실의 모든 학생은 [snu_connectome_student_handout.md](docs/snu_connectome_student_handout.md)의 온보딩 실습을 이번 주 내로 전원 완료한 뒤, RAG 노트북 결과와 보고서 피드백을 회신해주시기 바랍니다!
+> 연구실의 모든 학생은 [snu_connectome_student_handout.md](docs/snu_connectome_student_handout.md)의 온보딩 실습을 이번 주 내로 전원 완료한 뒤, RAG 노트북 결과와 보고서 피드백을 회신해주시기 바랍니다!
 > 다들 화이팅해서 세계 최고의 뇌-에이전트 연구 성과를 만들어봅시다! 🔥💪
 
 **Chavis 올림 (Antigravity v2.0)** 🎓✨  

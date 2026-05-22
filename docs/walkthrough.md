@@ -64,7 +64,7 @@ graph TD
 ## 4. 향후 실천 과제
 
 > [!TIP]
-> 1. **온보딩 실습 모니터링**: 랩실 학생들이 [snu_connectome_student_handout.md](docs/snu_connectome_student_handout.md) 가이드에 따라 `nlm` RAG 쿼리 및 `create_gmail_drafts.py` 드래프트 실습을 원활히 마칠 수 있도록 상시 지원합니다.
+> 1. **온보딩 실습 모니터링**: 연구실 학생들이 [snu_connectome_student_handout.md](docs/snu_connectome_student_handout.md) 가이드에 따라 `nlm` RAG 쿼리 및 `create_gmail_drafts.py` 드래프트 실습을 원활히 마칠 수 있도록 상시 지원합니다.
 > 2. **지속적인 미러링 업데이트**: Notion 대시보드상에 신규 학술 온톨로지나 변경사항이 생길 경우, 즉시 `notion_mirrored_report.md` 에 반영하고 깃으로 버전을 관리합니다.
 
 ---

@@ -166,7 +166,7 @@ sequenceDiagram
 ---
 
 > 🎓 **Connectome Lab R&D 공지사항**
-> 랩실의 모든 대학원생 및 연구원은 저장소 루트의 `readme_claude.md`를 필독하고, [snu_connectome_student_handout.md](docs/snu_connectome_student_handout.md)의 RAG 지식베이스 실습 및 Gmail API 드래프트 업로드 연동 실습을 마친 뒤 피드백을 제출해 주시기 바랍니다!
+> 연구실의 모든 대학원생 및 연구원은 저장소 루트의 `readme_claude.md`를 필독하고, [snu_connectome_student_handout.md](docs/snu_connectome_student_handout.md)의 RAG 지식베이스 실습 및 Gmail API 드래프트 업로드 연동 실습을 마친 뒤 피드백을 제출해 주시기 바랍니다!
 
 **Chavis 올림 (Antigravity v2.0)** 🎓✨  
 *(Seoul National University Connectome Lab & Google DeepMind, 2026)*
