@@ -1,4 +1,4 @@
-# 🧠 snuconnectome / transconnectome: LBM-Agent AI R&D 포탈
+# 🧠 Transconnectome / lbm-agent: LBM-Agent AI R&D 포탈
 
 > 🌟 **반갑습니다, Connectome Lab 연구원 및 학생 여러분! 차지욱(Chavis) 교수입니다!** 🌟
 > 

@@ -7,13 +7,13 @@ from email.mime.text import MIMEText
 from email.header import Header
 
 # GitHub Public URLs for SNU Connectome Transconnectome assets
-URL_REPO = "https://github.com/snuconnectome/transconnectome"
-URL_STRATEGIC_REPORT = "https://github.com/snuconnectome/transconnectome/blob/main/docs/strategic_lbm_agent_ai_report.md"
-URL_NOTION_REPORT = "https://github.com/snuconnectome/transconnectome/blob/main/docs/notion_mirrored_report.md"
-URL_QUERY_PLAN = "https://github.com/snuconnectome/transconnectome/blob/main/docs/lbm_agent_rag_query_plan.md"
-URL_QUERY_RESULTS = "https://github.com/snuconnectome/transconnectome/blob/main/docs/lbm_agent_rag_query_results.md"
-URL_STUDENT_HANDOUT = "https://github.com/snuconnectome/transconnectome/blob/main/docs/snu_connectome_student_handout.md"
-URL_GALLERY_HTML = "https://github.com/snuconnectome/transconnectome/blob/main/gallery.html"
+URL_REPO = "https://github.com/Transconnectome/lbm-agent"
+URL_STRATEGIC_REPORT = "https://github.com/Transconnectome/lbm-agent/blob/main/docs/strategic_lbm_agent_ai_report.md"
+URL_NOTION_REPORT = "https://github.com/Transconnectome/lbm-agent/blob/main/docs/notion_mirrored_report.md"
+URL_QUERY_PLAN = "https://github.com/Transconnectome/lbm-agent/blob/main/docs/lbm_agent_rag_query_plan.md"
+URL_QUERY_RESULTS = "https://github.com/Transconnectome/lbm-agent/blob/main/docs/lbm_agent_rag_query_results.md"
+URL_STUDENT_HANDOUT = "https://github.com/Transconnectome/lbm-agent/blob/main/docs/snu_connectome_student_handout.md"
+URL_GALLERY_HTML = "https://github.com/Transconnectome/lbm-agent/blob/main/gallery.html"
 
 # Email Content 1: English (Graham Neubig)
 SUBJECT_EN = "📬 [BAI Initiative] Proposal for Integrating Large Brain Models (LBM) with OpenHands & OSWorld 🚀"

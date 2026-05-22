@@ -1,4 +1,4 @@
-# Task List - Notion Mirroring & Link Standardization for transconnectome
+# Task List - Notion Mirroring & Link Standardization for lbm-agent
 
 - [x] **Step 1: Research & Setup**
   - [x] 로컬에 위치한 Connectome Lab의 논문 PDF 파일 목록 및 경로 최종 확인

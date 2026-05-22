@@ -7,7 +7,7 @@
 > * 📅 **최종 수정일**: 2026-05-22
 > * 🟢 **상태**: `Completed` / `Approved`
 > * 🏷️ **카테고리**: `AI for Science` / `Neuroscience` / `Agentic Coding`
-> * 📁 **프로젝트 허브**: `snuconnectome/transconnectome`
+> * 📁 **프로젝트 허브**: `Transconnectome/lbm-agent`
 > * 🔗 **원본 노션 페이지**: [Notion Link (36841454561d80db93b1ed512b242af2)](https://www.notion.so/36841454561d80db93b1ed512b242af2)
 
 ---

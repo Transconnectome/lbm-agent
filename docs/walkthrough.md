@@ -10,7 +10,7 @@
 
 ```mermaid
 graph TD
-    subgraph Repo_Root [transconnectome Repository Root]
+    subgraph Repo_Root [lbm-agent Repository Root]
         RM[readme_claude.md<br>Chavis 스타일 요약 가이드] --> NM[notion_mirrored_report.md<br>노션 메인 대시보드 미러]
         NM --> GH[gallery.html<br>인포그래픽 슬라이드 갤러리]
     end
@@ -33,7 +33,7 @@ graph TD
 ## 2. 주요 개선 및 달성 성과
 
 ### 1) 노션 메인 대시보드 미러링 및 루트 배치 완료
-- **미러 파일**: `/home/juke/git/transconnectome/notion_mirrored_report.md`
+- **미러 파일**: `/home/juke/git/lbm-agent/notion_mirrored_report.md`
 - **성과**: 노션 메인 페이지(`36841454561d80db93b1ed512b242af2`)와 1:1 매핑되는 대시보드 형태의 보고서를 리포지토리 루트에 신설하여 전체 연구의 메인 관문으로 삼았습니다.
 
 ### 2) 로컬 절대 경로 의존성 전면 제거 (Link Standardization)
@@ -45,14 +45,14 @@ graph TD
 - **이미지**: nanobanana2 API로 생성된 LBM 융합 전략 한글 슬라이드 6장을 `docs/images/lbm_agent_s1.png`~`lbm_agent_s6.png`로 파일명을 표준화하여 복사 및 배포함으로써, 마크다운 렌더링 시 외부 브라우저에서도 시각적으로 즉시 노출되도록 연동했습니다.
 
 ### 4) `readme_claude.md` 신규 작성 및 Chavis 스타일 서명 적용
-- **파일**: `/home/juke/git/transconnectome/readme_claude.md`
+- **파일**: `/home/juke/git/lbm-agent/readme_claude.md`
 - **성과**: 에이전트 친화적이고 직관적인 게이트웨이인 `readme_claude.md`를 루트에 신설하였습니다. 차지욱 교수 특유의 유쾌하고 이모지 가득한 에너제틱 톤앤매너로 LBM-Agent 연동 기술을 초단기 요약하였으며, `Chavis 올림 (Antigravity v2.0)` 컨벤션을 규격화하여 명시했습니다.
 
 ---
 
 ## 3. 원격 저장소 배포 결과
 
-* **대상 리포지토리**: `https://github.com/snuconnectome/transconnectome.git` (main 브랜치)
+* **대상 리포지토리**: `https://github.com/Transconnectome/lbm-agent.git` (main 브랜치)
 * **결과**: `git commit` 및 `git push origin main`이 백그라운드 태스크(task-944)를 통해 에러 없이 성공적으로 원격에 배포되었습니다.
 * **커밋 메시지**: `docs: Mirror Notion Dashboard to root, package scripts/images, and standardize all paths`
 
