@@ -1,4 +1,4 @@
-# Task List - LBM & Agent AI Deep Research Workflow
+# Task List - Notion Mirroring & Link Standardization for transconnectome
 
 - [x] **Step 1: Research & Setup**
   - [x] 로컬에 위치한 Connectome Lab의 논문 PDF 파일 목록 및 경로 최종 확인
@@ -7,12 +7,6 @@
 - [x] **Step 2: Knowledgebase 빌드 및 확장 (150+ 소스)**
   - [x] 로컬 Connectome Lab 논문 PDF 파일들을 노트북에 업로드 (`nlm source add`)
   - [x] 핵심 6개 주제 쿼리로 `nlm research start --mode deep --auto-import` 병렬/순차 실행
-    - [x] 쿼리 1: DIVER channel equivariant EEG foundation model
-    - [x] 쿼리 2: SwiFT Swin 4D fMRI Transformer brain network dynamics
-    - [x] 쿼리 3: Neural field modeling functional neuroimaging representation
-    - [x] 쿼리 4: Agent AI LLM computer agents tool use OSWorld
-    - [x] 쿼리 5: Graham Neubig OpenHands software engineering agent
-    - [x] 쿼리 6: Large Brain Model BCI for cognitive control and agent guidance
   - [x] 수집된 소스 수 확인 (150개 이상 탑재 확인, 실제 330여 개 적재)
 - [x] **Step 3: 다차원 RAG 쿼리 & 정보 분석**
   - [x] 노트북 지식베이스 RAG 쿼리 (`nlm query`) 및 외부 Deep Research 쿼리 교차 실행
@@ -26,4 +20,18 @@
   - [x] 카탈로그 등록 및 `gallery.py`를 활용해 프리미엄 HTML 갤러리 빌드
 - [x] **Step 6: 최종 검증 및 워크스루(Walkthrough) 작성**
   - [x] `walkthrough.md` 작성 및 최종 성과 검증
-
+- [/] **Step 7: 노션 미러링 및 로컬 경로 완전 교정**
+  - [ ] `docs/notion_mirrored_report.md`를 저장소 루트 `notion_mirrored_report.md`로 마이그레이션
+  - [ ] `notion_mirrored_report.md` 내 로컬 절대 경로(`file:///home/juke/...`)를 저장소 상대 경로로 전면 수정
+  - [ ] `docs/walkthrough.md` 내 로컬 절대 경로 및 이미지 경로 교정
+  - [ ] `docs/snu_connectome_student_handout.md` 내 로컬 절대 경로 및 실습 명령어 교정
+  - [ ] `docs/strategic_lbm_agent_ai_report.md` 내 로컬 경로 존재 여부 점검 및 교정
+- [ ] **Step 8: 이미지 및 스크립트 자산 저장소 패키징**
+  - [ ] 브레인 scratch에 보관된 `register_lbm_slides.py` -> `docs/scripts/register_lbm_slides.py` 로 복사
+  - [ ] 브레인 scratch에 보관된 `create_gmail_drafts.py` -> `docs/scripts/create_gmail_drafts.py` 로 복사
+  - [ ] 브레인 `images/`에 적재된 고품질 슬라이드 이미지 6장 -> `docs/images/` 로 복사 및 `lbm_agent_s1.png`~`lbm_agent_s6.png`로 파일명 표준화
+- [ ] **Step 9: `readme_claude.md` 신규 작성**
+  - [ ] 저장소 루트에 Chavis 스타일의 매혹적인 요약본 `readme_claude.md` 작성
+- [ ] **Step 10: 최종 검증 및 Git Push**
+  - [ ] `grep_search`를 통해 절대 경로 `/home/juke` 가 완벽히 소멸했는지 2차 검증
+  - [ ] `git add`, `git commit` 및 `git push origin main` 실행하여 배포 완료

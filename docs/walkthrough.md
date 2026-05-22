@@ -34,11 +34,11 @@ graph LR
 
 구축 완료된 핵심 자산들은 아래 링크를 통해 직접 검증하실 수 있습니다.
 
-- **융합 전략 연구 보고서**: [strategic_lbm_agent_ai_report.md](file:///home/juke/.gemini/antigravity-cli/brain/8b0c7e07-72c1-418e-8aa9-392705a5d20b/strategic_lbm_agent_ai_report.md)
+- **융합 전략 연구 보고서**: [strategic_lbm_agent_ai_report.md](strategic_lbm_agent_ai_report.md)
   - 뇌 신호의 시맨틱 토큰 정렬(NOBEL, fMRI-LM)을 통한 BCI-guided Grounding 보정 및 5개년 R&D 로드맵을 상술한 최고 수준의 학술 보고서입니다.
-- **인포그래픽 갤러리 HTML**: [gallery.html](file:///home/juke/git/cha-talks/infographics/gallery.html)
+- **인포그래픽 갤러리 HTML**: [gallery.html](../gallery.html)
   - 새로 추가된 LBM 슬라이드 6장을 포함하여 총 13건의 슬라이드를 한눈에 보고 검색할 수 있는 base64 인라인 인코딩 기반의 단일 독립형 HTML 파일입니다.
-- **자동 등록 자동화 스크립트**: [register_lbm_slides.py](file:///home/juke/.gemini/antigravity-cli/brain/8b0c7e07-72c1-418e-8aa9-392705a5d20b/scratch/register_lbm_slides.py)
+- **자동 등록 자동화 스크립트**: [register_lbm_slides.py](scripts/register_lbm_slides.py)
   - 빌드 결과물(PNG, MD)을 카탈로그에 동적으로 복사하고 YAML 메타데이터를 계층 온톨로지 규칙에 맞추어 자동 추가하는 Python 파이프라인 스크립트입니다.
 
 ---
@@ -48,17 +48,17 @@ graph LR
 생성된 6장의 슬라이드는 `snu_neurox` 테마(White 배경, SNU Blue, Signal Orange, Charcoal text) 및 Flat 2D Minimal Vector design을 적용하여 16:9 비율의 명확한 인포그래픽으로 제작되었습니다.
 
 ````carousel
-![슬라이드 1: LBM 기반 차세대 Agent AI 연동 전략 표지](/home/juke/git/cha-talks/infographics/output/lbm_agent_s1.png)
+![슬라이드 1: LBM 기반 차세대 Agent AI 연동 전략 표지](images/lbm_agent_s1.png)
 <!-- slide -->
-![슬라이드 2: 현재 Agent AI의 3대 핵심 병목과 한계](/home/juke/git/cha-talks/infographics/output/lbm_agent_s2.png)
+![슬라이드 2: 현재 Agent AI의 3대 핵심 병목과 한계](images/lbm_agent_s2.png)
 <!-- slide -->
-![슬라이드 3: DIVER 초거대 뇌파 파운데이션 모델 아키텍처](/home/juke/git/cha-talks/infographics/output/lbm_agent_s3.png)
+![슬라이드 3: DIVER 초거대 뇌파 파운데이션 모델 아키텍처](images/lbm_agent_s3.png)
 <!-- slide -->
-![슬라이드 4: SwiFT 및 Neural Field Modeling 비교 분석](/home/juke/git/cha-talks/infographics/output/lbm_agent_s4.png)
+![슬라이드 4: SwiFT 및 Neural Field Modeling 비교 분석](images/lbm_agent_s4.png)
 <!-- slide -->
-![슬라이드 5: Brain-Agent Interface (BAI) 메타 인지 폐루프](/home/juke/git/cha-talks/infographics/output/lbm_agent_s5.png)
+![슬라이드 5: Brain-Agent Interface (BAI) 메타 인지 폐루프](images/lbm_agent_s5.png)
 <!-- slide -->
-![슬라이드 6: 뇌-에이전트 융합을 위한 5개년 3단계 전략적 로드맵](/home/juke/git/cha-talks/infographics/output/lbm_agent_s6.png)
+![슬라이드 6: 뇌-에이전트 융합을 위한 5개년 3단계 전략적 로드맵](images/lbm_agent_s6.png)
 ````
 
 ### 슬라이드별 상세 개요 및 카탈로그 정보
@@ -79,8 +79,8 @@ graph LR
 1. **지식 적재 완료**: `lbm-agent` RAG 노트북에 차지욱 교수의 Connectome Lab 대표 학술 논문들과 Graham Neubig 교수의 에이전트 논문을 포함한 **330개 이상의 PDF 및 텍스트 소스** 적재 완료.
 2. **보고서 빌드 완료**: 뇌과학 파운데이션 모델의 기하학적 강점과 물리적 시간/공간적 한계를 모두 짚은 2만 자 규모의 아티팩트 `strategic_lbm_agent_ai_report.md` 작성 및 고도화 완료.
 3. **이미지 생성 완료**: `prompt_constraints.py` 검증기(단어 수 400 단어 이하, HEX 색상 5개 제한 등)를 완벽히 통과한 마크다운 프롬프트 설계 후 nanobanana2 API를 통해 **6장 슬라이드 전체 에러 없이 100% 성공 생성** 완료.
-4. **카탈로그 YAML 자동 등재**: `register_lbm_slides.py`를 실행하여 온톨로지 구조에 따라 YAML 메타데이터가 `/home/juke/git/cha-talks/infographics/catalog/entries/` 하위에 순차 등록됨을 확인.
-5. **갤러리 재생성**: `gallery.py`를 컴파일하여 단일 정적 갤러리 HTML에 인라인 이미지들을 병렬로 수집, 13건의 프리미엄 포트폴리오 뷰어 컴파일 완료.
+4. **카탈로그 YAML 자동 등재**: `scripts/register_lbm_slides.py`를 실행하여 온톨로지 구조에 따라 YAML 메타데이터가 저장소 온톨로지 기준에 입각해 순차 등록됨을 확인.
+5. **갤러리 재생성**: 수집된 인라인 이미지들을 병렬로 컴파일하여, 13건의 프리미엄 포트폴리오 뷰어 `gallery.html`을 최종 컴파일 완료.
 
 ---
 

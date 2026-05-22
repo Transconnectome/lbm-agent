@@ -5,7 +5,7 @@
 > **최종 수정일**: 2026-05-22
 > **상태**: 🟢 완료 (카탈로그 및 갤러리 등재 필)
 > **카테고리**: `AI for Science` / `Neuroscience`
-> **프로젝트**: `cha-talks infographics integration`
+> **프로젝트**: `transconnectome LBM infographics integration`
 
 ---
 
@@ -21,9 +21,9 @@
 
 ## 📂 핵심 산출물 바로가기 (Notion Bookmarks)
 
-* 📑 **종합 전략 연구 보고서**: [strategic_lbm_agent_ai_report.md](file:///home/juke/.gemini/antigravity-cli/brain/8b0c7e07-72c1-418e-8aa9-392705a5d20b/strategic_lbm_agent_ai_report.md)
-* 🖼️ **프리미엄 16:9 슬라이드 갤러리**: [gallery.html](file:///home/juke/git/cha-talks/infographics/gallery.html)
-* 🛠️ **자동화 카탈로그 등록 스크립트**: [register_lbm_slides.py](file:///home/juke/.gemini/antigravity-cli/brain/8b0c7e07-72c1-418e-8aa9-392705a5d20b/scratch/register_lbm_slides.py)
+* 📑 **종합 전략 연구 보고서**: [docs/strategic_lbm_agent_ai_report.md](docs/strategic_lbm_agent_ai_report.md)
+* 🖼️ **프리미엄 16:9 슬라이드 갤러리**: [gallery.html](gallery.html)
+* 🛠️ **자동화 카탈로그 등록 스크립트**: [docs/scripts/register_lbm_slides.py](docs/scripts/register_lbm_slides.py)
 
 ---
 

@@ -11,9 +11,9 @@
 
 프로젝트를 이어받아 개발하거나 추가하기 위해, 교수님 장비의 다음 두 리포지토리를 참조하고 본인의 샌드박스로 Clone 하여 R&D를 시작하세요.
 
-* 📁 **1) 인포그래픽 카탈로그 & 갤러리 프로젝트**: `/home/juke/git/cha-talks`
-  * **설명**: LBM 발표자료와 카탈로그 데이터베이스, 16:9 슬라이드 갤러리를 컴파일하고 자동 등재하는 프레임워크 리포지토리입니다.
-* 📁 **2) Gmail API & Emailer 커넥터 프로젝트**: `/home/juke/git/Emailer`
+* 📁 **1) 인포그래픽 카탈로그 & 갤러리 프로젝트 (현재 저장소)**: `snuconnectome/transconnectome`
+  * **설명**: LBM 발표자료와 카탈로그 데이터베이스, 16:9 슬라이드 갤러리를 컴파일하고 자동 등재하는 프레임워크 리포지토리입니다. (현재 열고 계신 저장소와 동일합니다.)
+* 📁 **2) Gmail API & Emailer 커넥터 프로젝트**: `snuconnectome/Emailer` (또는 로컬 `/home/juke/git/Emailer`)
   * **설명**: 뇌파 피드백이나 에이전트의 관측 이벤트를 감지하여 이메일을 읽고 검색하며, 드래프트를 전송 및 생성하는 통합 백엔드 연동 리포지토리입니다.
 
 ---
@@ -65,19 +65,19 @@ graph TD
 - **규칙 3**: `circular`, `3d` 등 다이어그램 왜곡을 유발하는 노이즈 키워드를 `Negative` 영역에서 단순화하고 Flat 2D vector style로 통일합니다.
 
 #### 2) 카탈로그 자동 복사 및 YAML 등록 스크립트 실행
-이미지와 마크다운이 준비되면, 메타데이터 온톨로지 규칙(`/home/juke/git/cha-talks/infographics/ontology.yaml` 참조)에 맞춰 스크립트에 슬라이드 데이터 딕셔너리를 추가한 후 실행합니다.
+이미지와 마크다운이 준비되면, 메타데이터 온톨로지 규칙(저장소 내 `docs/` 리소스 참조)에 맞춰 스크립트에 슬라이드 데이터 딕셔너리를 추가한 후 실행합니다.
 
 ```bash
-# 1. /home/juke/git/cha-talks/infographics 디렉토리로 이동 후 스크립트 실행
-python /home/juke/.gemini/antigravity-cli/brain/8b0c7e07-72c1-418e-8aa9-392705a5d20b/scratch/register_lbm_slides.py
+# 1. 리포지토리 루트 디렉토리로 이동 후 패키징된 스크립트 실행
+python docs/scripts/register_lbm_slides.py
 ```
 
 #### 3) 단일 정적 갤러리 HTML 재생성
-등록된 YAML 카탈로그와 복사된 아웃풋 이미지를 병렬 수집하여 base64로 썸네일을 인라인 인코딩하고, 갤러리 포트폴리오 웹사이트를 재생성합니다.
+등록된 YAML 카탈로그와 복사된 아웃풋 이미지를 병렬 수집하여 base64로 썸네일을 인라인 인코딩하고, 갤러리 포트폴리오 웹사이트 `gallery.html`을 루트에 재생성합니다.
 
 ```bash
-# 갤러리 컴파일 실행 명령어
-python /home/juke/git/cha-talks/infographics/gallery.py --output /home/juke/git/cha-talks/infographics/gallery.html
+# 갤러리 컴파일 실행 명령어 (로컬 갤러리 빌더 환경이 구비된 경우 실행)
+python docs/scripts/gallery.py --output gallery.html
 ```
 
 ---
@@ -100,8 +100,8 @@ BAI 폐루프 R&D나 외부 에이전트 트리거 반응으로 Gmail 임시보�
 아래 명령어를 입력해, 우리가 미리 구성해둔 자동 드래프트 빌더 파이썬 스크립트를 실행하여 본인의 임시보관함 연동 상태를 확인하고 이메일 원문 RFC 822 변환 과정을 실습해 봅니다.
 
 ```bash
-# gws 연동 Gmail 임시보관함 드래프트 자동 등록 실행
-python /home/juke/.gemini/antigravity-cli/brain/8b0c7e07-72c1-418e-8aa9-392705a5d20b/scratch/create_gmail_drafts.py
+# 패키징된 Gmail 임시보관함 드래프트 자동 등록 실행
+python docs/scripts/create_gmail_drafts.py
 ```
 
 ---
@@ -110,6 +110,6 @@ python /home/juke/.gemini/antigravity-cli/brain/8b0c7e07-72c1-418e-8aa9-392705a5
 
 학생들은 이 가이드와 핸드아웃을 학습한 후 아래 3가지 액션을 수행하여 교수님께 피드백을 전달해야 합니다.
 
-- [ ] **1. 보고서 피드백**: [strategic_lbm_agent_ai_report.md](file:///home/juke/.gemini/antigravity-cli/brain/8b0c7e07-72c1-418e-8aa9-392705a5d20b/strategic_lbm_agent_ai_report.md)의 3대 물리적 장벽 및 5개년 로드맵 단계 구상에 대한 세부 의견 추가하기.
-- [ ] **2. 갤러리 검증**: [gallery.html](file:///home/juke/git/cha-talks/infographics/gallery.html)를 브라우저로 직접 열어 새로 등재된 LBM 슬라이드 6장의 디자인 완성도 및 가독성 검토하기.
+- [ ] **1. 보고서 피드백**: [strategic_lbm_agent_ai_report.md](strategic_lbm_agent_ai_report.md)의 3대 물리적 장벽 및 5개년 로드맵 단계 구상에 대한 세부 의견 추가하기.
+- [ ] **2. 갤러리 검증**: [gallery.html](../gallery.html)를 브라우저로 직접 열어 새로 등재된 LBM 슬라이드 6장의 디자인 완성도 및 가독성 검토하기.
 - [ ] **3. RAG 쿼리 확장**: `lbm_agent_rag_query_plan.md` 계획서의 40대 쿼리 중 본인의 개별 학위 논문 연구와 가장 부합하는 쿼리를 RAG 노트북(`lbm-agent`)에 던져본 후, 그 쿼리 결과 분석 마크다운에 추가 기재하여 교수님께 메일 회신하기.
