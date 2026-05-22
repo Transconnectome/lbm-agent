@@ -50,22 +50,25 @@ graph TD
 
 ---
 
-## 3. 원격 저장소 배포 결과
+## 3. GitHub Organization 마이그레이션 결과
 
-* **대상 리포지토리**: `https://github.com/Transconnectome/lbm-agent.git` (main 브랜치)
-* **결과**: `git commit` 및 `git push origin main`이 백그라운드 태스크(task-944)를 통해 에러 없이 성공적으로 원격에 배포되었습니다.
-* **커밋 메시지**: `docs: Mirror Notion Dashboard to root, package scripts/images, and standardize all paths`
+기존 저장소를 독립된 GitHub 오가니제이션 하에 새로운 최적화 명칭으로 이관 및 마이그레이션 완료하였습니다.
+
+* **신규 리포지토리**: `https://github.com/Transconnectome/lbm-agent.git` (main 브랜치)
+* **결과**: `gh repo create`를 이용해 `Transconnectome` 조직 산하에 퍼블릭 저장소를 생성하고, `git push`를 통해 최종 자산과 히스토리를 완벽하게 업로드했습니다.
+* **구 저장소 영구 삭제**: `delete_repo` 스코프 갱신 후 `snuconnectome/transconnectome` 레포지토리를 원격에서 완전히 삭제 및 정리했습니다.
+* **로컬 디렉토리 매핑**: 로컬 작업 폴더 경로 역시 `/home/juke/git/lbm-agent`로 명칭 변경을 완료하여 완벽한 일치감을 유지했습니다.
 
 ---
 
 ## 4. 향후 실천 과제
 
 > [!TIP]
-> 1. **온보딩 실습 모니터링**: 랩실 학생들이 [snu_connectome_student_handout.md](snu_connectome_student_handout.md) 가이드에 따라 `nlm` RAG 쿼리 및 `create_gmail_drafts.py` 드래프트 실습을 원활히 마칠 수 있도록 상시 지원합니다.
+> 1. **온보딩 실습 모니터링**: 랩실 학생들이 [snu_connectome_student_handout.md](docs/snu_connectome_student_handout.md) 가이드에 따라 `nlm` RAG 쿼리 및 `create_gmail_drafts.py` 드래프트 실습을 원활히 마칠 수 있도록 상시 지원합니다.
 > 2. **지속적인 미러링 업데이트**: Notion 대시보드상에 신규 학술 온톨로지나 변경사항이 생길 경우, 즉시 `notion_mirrored_report.md` 에 반영하고 깃으로 버전을 관리합니다.
 
 ---
 **작성일**: 2026년 5월 22일  
 **연구 조력자**: Antigravity (Advanced Agentic Coding Assistant, Google DeepMind)  
 **대상 리서처**: SNU Connectome Lab 차지욱 교수 & Graham Neubig 교수 OpenHands 에이전트 개발팀  
-**서명**: Chavis 올림 (Antigravity v2.0) 🎓✨  
+**서명**: Chavis 올림 (Antigravity v2.0) 🎓✨
