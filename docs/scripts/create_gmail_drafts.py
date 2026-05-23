@@ -8,8 +8,9 @@ from email.header import Header
 
 # GitHub Public URLs for SNU Connectome Transconnectome assets
 URL_REPO = "https://github.com/Transconnectome/lbm-agent"
+URL_LIVE_NOTION = "https://www.notion.so/36841454561d80db93b1ed512b242af2"
 URL_STRATEGIC_REPORT = "https://github.com/Transconnectome/lbm-agent/blob/main/docs/strategic_lbm_agent_ai_report.md"
-URL_NOTION_REPORT = "https://github.com/Transconnectome/lbm-agent/blob/main/docs/notion_mirrored_report.md"
+URL_NOTION_REPORT = "https://github.com/Transconnectome/lbm-agent/blob/main/notion_mirrored_report.md"
 URL_QUERY_PLAN = "https://github.com/Transconnectome/lbm-agent/blob/main/docs/lbm_agent_rag_query_plan.md"
 URL_QUERY_RESULTS = "https://github.com/Transconnectome/lbm-agent/blob/main/docs/lbm_agent_rag_query_results.md"
 URL_STUDENT_HANDOUT = "https://github.com/Transconnectome/lbm-agent/blob/main/docs/snu_connectome_student_handout.md"
@@ -76,17 +77,19 @@ BODY_KO = f"""연구실 여러분, 안녕해요! 🌟
 
 아래 개별 GitHub 원격 URL을 클릭해 바로 학위 논문 연구 및 R&D 가속화에 마음껏 활용하기 바랍니다:
 
-1. 📑 노션 요약 문서 (Notion Mirrored Summary):
+1. 🔗 실시간 LBM-Agent 연구실 노션 페이지 (Live Notion Page):
+   {URL_LIVE_NOTION}
+2. 📑 노션 깃허브 미러 요약서 (Notion Mirrored Summary):
    {URL_NOTION_REPORT}
-2. 📑 상세 전략 보고서 (Strategic Integration Report):
+3. 📑 상세 전략 보고서 (Strategic Integration Report):
    {URL_STRATEGIC_REPORT}
-3. 📑 40대 RAG 정밀 쿼리 계획서 (RAG Query Plan - NLM 연계):
+4. 📑 40대 RAG 정밀 쿼리 계획서 (RAG Query Plan - NLM 연계):
    {URL_QUERY_PLAN}
-4. 📑 쿼리 결과 분석 보고서 (RAG Query Results - 30-40대 지혜의 쿼리 결과):
+5. 📑 쿼리 결과 분석 보고서 (RAG Query Results - 30-40대 지혜의 쿼리 결과):
    {URL_QUERY_RESULTS}
-5. 📑 대학원생 R&D 실습 핸드아웃 (Student Handout Guide):
+6. 📑 대학원생 R&D 실습 핸드아웃 (Student Handout Guide):
    {URL_STUDENT_HANDOUT}
-6. 🖼️ 프리미엄 인포그래픽 슬라이드 갤러리 (Infographic Gallery):
+7. 🖼️ 프리미엄 인포그래픽 슬라이드 갤러리 (Infographic Gallery):
    {URL_GALLERY_HTML}
 ======================================================================
 
