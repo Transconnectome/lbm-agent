@@ -165,6 +165,24 @@ sequenceDiagram
 
 ---
 
+## 🔮 LBM-Agent R&D 포탈 200% 활용 시나리오 (Utilization Playbook)
+
+본 포탈을 연구실 연구원들이 연구 및 글로벌 협업에 극대화하여 활용할 수 있도록 노션 요약 가이드북을 제공합니다!
+
+> [!TIP]
+> **💡 포탈 핵심 활용 시나리오 4가지**
+> 
+> 1. **학회 발표 및 해외 협업 제안 시 시각적 프레젠테이션 활용 🖼️**
+>    - 6장의 프리미엄 16:9 슬라이드 인포그래픽이 인라인 탑재된 [gallery.html](gallery.html) 뷰어를 브라우저로 실행하여, 세미나나 Graham Neubig 교수팀과의 화상 회의 시 즉석 프리젠테이션 도구로 활용하세요!
+> 2. **신입 연구원 및 대학원생 온보딩 자동화 🎓**
+>    - 신규 연구 인력 유입 시 [readme_claude.md](readme_claude.md)와 [docs/snu_connectome_student_handout.md](docs/snu_connectome_student_handout.md) 온보딩 실습을 넘겨주세요. RAG 노트북 사용부터 API 이메일 드래프트 연동까지 하루 만에 완벽히 셀프 학습이 가능합니다.
+> 3. **초고속 학술 연구 및 문헌 조사 가속화 (RAG Query) 🔬**
+>    - 330여 개의 AI/뇌과학 논문이 탑재된 `lbm-agent` 지식베이스에서 `nlm query`를 실행하여 문헌 조사 시간을 획기적으로 줄이고, 논문 및 특허의 논리 구조를 순식간에 보강하세요.
+> 4. **글로벌 석학 네트워킹 (Gmail API 연동) 📬**
+>    - [docs/scripts/create_gmail_drafts.py](docs/scripts/create_gmail_drafts.py)를 구동하여, API 연동으로 갱신 완료된 지메일 임시보관함 초안들을 확인하고 정교한 글로벌 제안 메일을 원클릭으로 즉각 발송하세요.
+
+---
+
 > 🎓 **Connectome Lab R&D 공지사항**
 > 연구실의 모든 대학원생 및 연구원은 저장소 루트의 `readme_claude.md`를 필독하고, [snu_connectome_student_handout.md](docs/snu_connectome_student_handout.md)의 RAG 지식베이스 실습 및 Gmail API 드래프트 업로드 연동 실습을 마친 뒤 피드백을 제출해 주시기 바랍니다!
 

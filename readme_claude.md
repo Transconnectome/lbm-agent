@@ -44,6 +44,21 @@
 
 ---
 
+## 🔮 LBM-Agent R&D 포탈 200% 활용 시나리오 (Utilization Guide)
+
+연구원들이 이 저장소와 연동된 자산들을 200% 활용해 연구 속도를 기하급수적으로 단축할 수 있는 4대 실전 시나리오를 안내합니다! 
+
+1. **학회 발표 및 세미나 프레젠테이션 🖼️**
+   - 6장의 고화질 인포그래픽이 포함된 [gallery.html](gallery.html) 뷰어를 브라우저로 직접 실행하여, 연구실 세미나 발표나 대외 미팅 시 고품격 시각 자료로 적극 활용하세요!
+2. **대학원생 및 연구원 교육 자동화 🎓**
+   - 신규 합류한 연구 인력에게 이 `readme_claude.md`와 [docs/snu_connectome_student_handout.md](docs/snu_connectome_student_handout.md) 실습 가이드를 건네 셀프 온보딩을 진행하도록 유도할 수 있습니다.
+3. **학술 연구 및 문헌 정보 수집 가속화 🔬**
+   - 330여 개의 논문이 내장된 `lbm-agent` 지식베이스 RAG 엔진을 활용하여, 논문 작성 시 필요한 문헌 리포트와 학술 근거를 `nlm query` 명령어로 즉각 확보할 수 있습니다.
+4. **글로벌 석학들과의 교류 및 공동연구 제안 📬**
+   - [docs/scripts/create_gmail_drafts.py](docs/scripts/create_gmail_drafts.py) API 연동 스크립트를 활용해, 링크 깨짐 걱정 없는 정교하고 매력적인 영문/국문 이메일 초안을 지메일 임시보관함에 생성하여 원클릭 발송에 활용할 수 있습니다.
+
+---
+
 > 💡 **주목!** 
 > 연구실의 모든 학생은 [snu_connectome_student_handout.md](docs/snu_connectome_student_handout.md)의 온보딩 실습을 이번 주 내로 전원 완료한 뒤, RAG 노트북 결과와 보고서 피드백을 회신해주시기 바랍니다!
 > 다들 화이팅해서 세계 최고의 뇌-에이전트 연구 성과를 만들어봅시다! 🔥💪
